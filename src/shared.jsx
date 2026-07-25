@@ -40,13 +40,11 @@ function Nav() {
       <nav className={`nav${scrolled ? ' scrolled' : ''}`}>
         <div className="container nav-inner">
           <a href="/" className="nav-logo">
-            <div className="nav-logo-mark">
-              <span className="nav-logo-mark-text">MM</span>
-            </div>
-            <div className="nav-logo-wordmark">
-              <span className="nav-logo-name">Motion Marketing</span>
-              <span className="nav-logo-sub">Digital Marketing Agency</span>
-            </div>
+            <img
+              src="/assets/logo.png"
+              alt="Motion Marketing LLC"
+              style={{height: '36px', width: 'auto', display: 'block'}}
+            />
           </a>
 
           <ul className="nav-links">
@@ -98,10 +96,11 @@ function Footer() {
         <div className="footer-inner">
           <div>
             <div className="footer-logo">
-              <div className="footer-logo-mark">
-                <span className="footer-logo-mark-text">MM</span>
-              </div>
-              <span className="footer-logo-name">Motion Marketing</span>
+              <img
+                src="/assets/logo.png"
+                alt="Motion Marketing LLC"
+                style={{height: '32px', width: 'auto', display: 'block'}}
+              />
             </div>
             <div className="footer-tagline">
               Marketing built for local service businesses. We treat your business like our own.
