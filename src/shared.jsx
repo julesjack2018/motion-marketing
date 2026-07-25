@@ -43,7 +43,7 @@ function Nav() {
             <img
               src="/assets/logo.png"
               alt="Motion Marketing LLC"
-              style={{height: '36px', width: 'auto', display: 'block'}}
+              style={{height: '48px', width: 'auto', display: 'block'}}
             />
           </a>
 
@@ -99,7 +99,7 @@ function Footer() {
               <img
                 src="/assets/logo.png"
                 alt="Motion Marketing LLC"
-                style={{height: '32px', width: 'auto', display: 'block'}}
+                style={{height: '44px', width: 'auto', display: 'block'}}
               />
             </div>
             <div className="footer-tagline">
