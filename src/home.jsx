@@ -198,7 +198,7 @@ function Home() {
               </RevealSection>
             ))}
           </div>
-          <p className="serve-more">...and many more local service businesses ready to grow.</p>
+          <p className="serve-more">Not on the list? If you run a local service business, reach out anyway.</p>
         </div>
       </section>
 
