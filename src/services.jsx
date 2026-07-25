@@ -33,9 +33,9 @@ function Services() {
       num: '01',
       icon: '🖥️',
       title: 'Website Design & Development',
-      body: 'Your website is your #1 marketing tool. For most customers, it\'s the first impression they have of your shop — and a bad one costs you jobs. We build fast, professional, conversion-focused sites built specifically for automotive businesses.',
+      body: 'Your website is your #1 marketing tool. For most customers, it\'s the first impression they have of your business, and a bad one costs you jobs. We build fast, professional, conversion-focused sites that turn visitors into booked customers.',
       items: [
-        'Custom design — no templates, no cookie-cutter layouts',
+        'Custom design, no templates, no cookie-cutter layouts',
         'Mobile-first, fully responsive on every device',
         'Fast-loading pages optimized for Core Web Vitals',
         'Built-in SEO foundation (structure, meta, schema)',
@@ -51,7 +51,7 @@ function Services() {
       num: '02',
       icon: '📣',
       title: 'Meta & Google Ads',
-      body: 'The fastest way to get new customers through the door. We run targeted paid ad campaigns on Meta (Facebook + Instagram) and Google that put your shop in front of people actively looking for what you offer — in your area.',
+      body: 'The fastest way to get new customers through the door. We run targeted paid ad campaigns on Meta (Facebook + Instagram) and Google that put your business in front of people actively looking for what you offer, right in your area.',
       items: [
         'Campaign strategy and audience research',
         'Ad creative: copy, graphics, and video concepts',
@@ -69,7 +69,7 @@ function Services() {
       num: '03',
       icon: '📱',
       title: 'Social Media Management',
-      body: 'Consistency is what builds a brand. Most shops post when they have time — which means they disappear for weeks, then reappear. We keep your accounts active, professional, and growing with content that actually represents your shop.',
+      body: 'Consistency is what builds a brand. Most businesses post when they have time, which means they disappear for weeks then reappear. We keep your accounts active, professional, and growing with content that actually represents your brand.',
       items: [
         'Monthly content calendar and strategy',
         'Professional post creation (graphics + captions)',
@@ -87,9 +87,9 @@ function Services() {
       num: '04',
       icon: '🔍',
       title: 'Search Engine Optimization (SEO)',
-      body: 'When someone in your area searches "tint shop near me" or "best detailing NJ," you want to show up. SEO gets your shop ranking in Google organically — without paying for every click. It takes time, but the results compound.',
+      body: 'When someone in your area searches for what you offer, you want to show up. SEO gets your business ranking in Google organically, without paying for every click. It takes time, but the results compound.',
       items: [
-        'Local SEO — Google Business Profile optimization',
+        'Local SEO: Google Business Profile optimization',
         'Keyword research for your specific niche and location',
         'On-page optimization for every service page',
         'Technical SEO audit and fixes',
@@ -133,7 +133,7 @@ function Services() {
             Our<br/>Services
           </h1>
           <p className="page-header-sub">
-            Five services. One agency. Everything your auto business needs
+            Five services. One agency. Everything your business needs
             to get found, look professional, and grow.
           </p>
         </div>
@@ -178,7 +178,7 @@ function Services() {
           </h2>
           <p className="cta-strip-sub">
             Fill out our short questionnaire and we'll tell you exactly
-            what your shop needs most. Free, no obligation.
+            what your business needs most. Free, no obligation.
           </p>
           <div className="cta-strip-actions">
             <a href="/contact" className="btn btn-primary btn-lg">Get a Free Audit</a>

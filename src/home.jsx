@@ -29,35 +29,35 @@ function RevealSection({ children, delay, className }) {
 
 function Home() {
   const services = [
-    { num: '01', title: 'Website Design', body: 'Built for auto businesses. Fast, professional, designed to convert visitors into booked appointments.', tags: ['Design', 'Dev', 'SEO-Ready'] },
+    { num: '01', title: 'Website Design', body: 'Fast, professional, designed to convert visitors into booked appointments.', tags: ['Design', 'Dev', 'SEO-Ready'] },
     { num: '02', title: 'Meta & Google Ads', body: 'Targeted ad campaigns that put your shop in front of local customers who are actively looking.', tags: ['Meta Ads', 'Google Ads', 'Local'] },
     { num: '03', title: 'Social Media', body: 'Consistent, on-brand content that builds your presence and keeps customers coming back.', tags: ['Content', 'Strategy', 'Growth'] },
-    { num: '04', title: 'SEO', body: 'Show up when customers search for your services. Get found on Google — without paying for every click.', tags: ['Local SEO', 'Rankings', 'Traffic'] },
+    { num: '04', title: 'SEO', body: 'Show up when customers search for your services. Get found on Google without paying for every click.', tags: ['Local SEO', 'Rankings', 'Traffic'] },
     { num: '05', title: 'Logo Design', body: 'A brand that looks as professional as the work you do. First impressions matter.', tags: ['Branding', 'Identity', 'Logo'] },
   ];
 
   const niches = [
-    { icon: '🎨', name: 'Tint Shops' },
-    { icon: '🚗', name: 'Wrap Shops' },
-    { icon: '✨', name: 'Detail Shops' },
-    { icon: '📷', name: 'Dashcam Install' },
+    { icon: '🎨', name: 'Tint & Wrap Shops' },
+    { icon: '✨', name: 'Detail & PPF Shops' },
     { icon: '⚡', name: 'Performance Shops' },
     { icon: '🔧', name: 'Auto Repair' },
-    { icon: '🏁', name: 'Import Shops' },
-    { icon: '🚙', name: 'PPF Shops' },
-    { icon: '💡', name: 'Lighting Shops' },
+    { icon: '❄️', name: 'HVAC Companies' },
+    { icon: '🌿', name: 'Landscaping' },
+    { icon: '🏠', name: 'Home Services' },
+    { icon: '🔌', name: 'Electricians' },
+    { icon: '✚', name: 'And More' },
   ];
 
   const reasons = [
     {
       num: '#01',
-      title: 'Auto Industry Only',
-      body: 'We specialize in auto businesses — full stop. We understand your customers, your seasonality, and what makes someone choose your shop over the one down the street.',
+      title: 'Niche Expertise',
+      body: 'We don\'t spread thin across every industry. We go deep on yours. We learn your customers, your competition, and what actually makes someone choose you over the next option.',
     },
     {
       num: '#02',
       title: 'Your Business, Our Mission',
-      body: 'Most agencies treat clients like a number. We don\'t. We show up with the same urgency and care as if your business were our own — because we know exactly what\'s at stake.',
+      body: 'Most agencies treat clients like a number. We don\'t. We show up with the same urgency and care as if your business were our own, because we know exactly what\'s at stake.',
     },
     {
       num: '#03',
@@ -79,7 +79,7 @@ function Home() {
             <div className="hero-content">
               <div className="hero-eyebrow">
                 <div className="hero-eyebrow-dot"></div>
-                <span className="eyebrow">Auto Business Marketing · New Jersey</span>
+                <span className="eyebrow">Local Business Marketing · New Jersey</span>
               </div>
 
               <h1 className="hero-headline">
@@ -90,9 +90,9 @@ function Home() {
               </h1>
 
               <p className="hero-sub">
-                Motion Marketing is the dedicated agency for auto businesses.
-                Websites, ads, social media, SEO, and branding from a team
-                that treats your shop like their own.
+                Motion Marketing helps local service businesses get found,
+                look professional, and grow. Websites, ads, social, SEO,
+                and branding from someone who treats your business like her own.
               </p>
 
               <div className="hero-actions">
@@ -104,8 +104,8 @@ function Home() {
 
               <div className="hero-stats">
                 <div>
-                  <div className="hero-stat-value">Auto</div>
-                  <div className="hero-stat-label">Industry Only</div>
+                  <div className="hero-stat-value">Local</div>
+                  <div className="hero-stat-label">Business Focus</div>
                 </div>
                 <div>
                   <div className="hero-stat-value">5</div>
@@ -174,11 +174,12 @@ function Home() {
           <RevealSection>
             <div className="serve-intro">
               <AccentHeader>
-                <h2 className="display-md">Built For Auto</h2>
+                <h2 className="display-md">Who We Work With</h2>
               </AccentHeader>
               <p className="serve-intro-body">
-                We work exclusively with automotive businesses. If you're in the auto
-                industry, you're exactly who we built this agency for.
+                We work with local service businesses of all kinds. Auto is our home
+                base, but if you run a service business and need marketing that
+                actually works, you're exactly who we're here for.
               </p>
             </div>
           </RevealSection>
@@ -253,20 +254,20 @@ function Home() {
                   like when a business doesn't have enough customers. That frustration became fuel.
                 </p>
                 <p className="founder-body">
-                  He built this agency for every shop owner who's ever wondered why their hard
-                  work isn't getting the recognition it deserves. Running a business is personal —
+                  She built this agency for every business owner who's ever wondered why their hard
+                  work isn't getting the recognition it deserves. Running a business is personal,
                   and the marketing behind it should be too.
                 </p>
                 <p className="founder-body">
-                  Motion Marketing works exclusively with auto businesses because that's where the
-                  focus lives. Your niche is our specialty. Your growth is our goal.
+                  Motion Marketing works with local service businesses of all kinds. Auto is our
+                  home base, but any business ready to grow is exactly who we're here for.
                 </p>
               </RevealSection>
 
               <RevealSection delay={2}>
                 <div className="founder-tags">
                   <div className="founder-tag"><div className="founder-tag-dot"></div>NJ Based</div>
-                  <div className="founder-tag"><div className="founder-tag-dot"></div>Auto Industry Specialist</div>
+                  <div className="founder-tag"><div className="founder-tag-dot"></div>Local Business Specialist</div>
                   <div className="founder-tag"><div className="founder-tag-dot"></div>Full-Service Agency</div>
                   <div className="founder-tag"><div className="founder-tag-dot"></div>Results-Driven</div>
                 </div>
@@ -289,11 +290,11 @@ function Home() {
             <span className="eyebrow">Ready To Grow?</span>
           </div>
           <h2 className="cta-strip-headline">
-            Your Shop<br/>Deserves<br/>More Customers.
+            Your Business<br/>Deserves<br/>More Customers.
           </h2>
           <p className="cta-strip-sub">
             Let's build the marketing engine your business deserves.
-            Free audit — no pressure, no fluff.
+            Free audit. No pressure, no fluff.
           </p>
           <div className="cta-strip-actions">
             <a href="/contact" className="btn btn-primary btn-lg">Get a Free Audit</a>

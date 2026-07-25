@@ -45,7 +45,7 @@ function Nav() {
             </div>
             <div className="nav-logo-wordmark">
               <span className="nav-logo-name">Motion Marketing</span>
-              <span className="nav-logo-sub">Auto Business Agency</span>
+              <span className="nav-logo-sub">Digital Marketing Agency</span>
             </div>
           </a>
 
@@ -104,7 +104,7 @@ function Footer() {
               <span className="footer-logo-name">Motion Marketing</span>
             </div>
             <div className="footer-tagline">
-              Marketing built for the auto industry. We treat your business like our own.
+              Marketing built for local service businesses. We treat your business like our own.
             </div>
             <div className="footer-social">
               <a

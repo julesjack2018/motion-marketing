@@ -59,8 +59,9 @@ function Contact() {
   ];
 
   const businessTypes = [
-    'Tint Shop', 'Wrap Shop', 'Detail Shop', 'Dashcam Install', 'Performance Shop',
-    'Auto Repair', 'Import Shop', 'PPF Shop', 'Other',
+    'Tint Shop', 'Wrap Shop', 'Detail Shop', 'Performance Shop', 'Auto Repair',
+    'HVAC', 'Landscaping', 'Home Services', 'Electrician', 'Plumbing',
+    'Cleaning Service', 'Other',
   ];
 
   if (status === 'success') {
@@ -332,7 +333,7 @@ function Contact() {
                       style={{width: '100%', justifyContent: 'center'}}
                       disabled={status === 'sending'}
                     >
-                      {status === 'sending' ? 'Sending...' : 'Submit — Get My Free Audit'}
+                      {status === 'sending' ? 'Sending...' : 'Submit + Get My Free Audit'}
                     </button>
                     {status === 'error' && (
                       <p className="form-note" style={{marginTop: 'var(--sp-3)', color: '#ff5555'}}>
@@ -386,9 +387,9 @@ function Contact() {
                 <div className="contact-info-title">What You'll Get</div>
                 {[
                   'A review of your current online presence',
-                  'Honest assessment of what's working and what's not',
-                  'Specific recommendations for your shop',
-                  'No sales pressure — just real advice',
+                  'Honest assessment of what\'s working and what\'s not',
+                  'Specific recommendations for your business',
+                  'No sales pressure, just real advice',
                 ].map((item, i) => (
                   <div key={i} className="contact-info-item">
                     <div className="contact-info-icon" style={{fontSize: '13px', marginTop: '3px', opacity: 0.6}}>→</div>

@@ -32,12 +32,12 @@ function About() {
     {
       num: '01',
       title: 'Niche First',
-      body: 'Generic marketing doesn\'t work. We built this agency around one industry so we can go deeper than any generalist agency ever could. Your niche is our home base.',
+      body: 'Generic marketing doesn\'t work. We go deep on your specific industry so we understand your customers, your competition, and what actually moves the needle for businesses like yours.',
     },
     {
       num: '02',
       title: 'Ownership Mentality',
-      body: 'We treat every client\'s business like it\'s our own. That means honest feedback, proactive ideas, and showing up even when things need to be fixed — not just when things are easy.',
+      body: 'We treat every client\'s business like it\'s our own. That means honest feedback, proactive ideas, and showing up even when things need to be fixed, not just when things are easy.',
     },
     {
       num: '03',
@@ -84,7 +84,7 @@ function About() {
               <RevealSection>
                 <p className="about-story-intro">
                   Motion Marketing started with a feeling most business owners know
-                  but rarely talk about — the quiet frustration of working hard every
+                  but rarely talk about: the quiet frustration of working hard every
                   day and still not having enough customers.
                 </p>
               </RevealSection>
@@ -92,35 +92,35 @@ function About() {
               <RevealSection delay={1}>
                 <div className="about-story-body">
                   <p>
-                    Jules Battiato started his first business and poured everything into the
-                    work itself — the craft, the service, the quality. But the phone wasn't
+                    Jules Battiato started her first business and poured everything into the
+                    work itself: the craft, the service, the quality. But the phone wasn't
                     ringing the way it should've been. Not because the business wasn't good.
                     Because nobody knew it existed.
                   </p>
                   <p>
-                    That experience — being a great operator with a marketing problem — became
-                    the foundation of Motion Marketing. Jules learned everything he could about
-                    digital marketing, ran his own campaigns, built his own web presence, and
+                    That experience, being a great operator with a marketing problem, became
+                    the foundation of Motion Marketing. Jules learned everything she could about
+                    digital marketing, ran her own campaigns, built her own web presence, and
                     figured out what actually moves the needle for small businesses.
                   </p>
                   <p>
-                    He chose to focus on auto businesses specifically because they're his people.
-                    Shop owners who take pride in their work. People who care deeply about their
-                    craft and their customers. People who deserve to be seen.
+                    She built this agency for local service businesses of all kinds. Auto is her
+                    home base and where she thrives, but if you run a service business and need
+                    marketing that actually works, you're exactly who this was built for.
                   </p>
                   <p>
-                    Motion Marketing exists for one reason: to make sure no shop owner ever has
-                    to feel like their hard work is going unnoticed. Your business is your legacy.
-                    We treat it that way.
+                    Motion Marketing exists for one reason: to make sure no business owner ever
+                    has to feel like their hard work is going unnoticed. Your business is your
+                    legacy. We treat it that way.
                   </p>
                 </div>
               </RevealSection>
 
               <RevealSection delay={2}>
                 <div className="founder-tags" style={{marginTop: 'var(--sp-6)'}}>
-                  <div className="founder-tag"><div className="founder-tag-dot"></div>Founder — Jules Battiato</div>
+                  <div className="founder-tag"><div className="founder-tag-dot"></div>Founder, Jules Battiato</div>
                   <div className="founder-tag"><div className="founder-tag-dot"></div>NJ Based</div>
-                  <div className="founder-tag"><div className="founder-tag-dot"></div>Auto Industry Focus</div>
+                  <div className="founder-tag"><div className="founder-tag-dot"></div>Local Business Focus</div>
                 </div>
               </RevealSection>
             </div>
@@ -167,7 +167,7 @@ function About() {
             Let's Build<br/>Something.
           </h2>
           <p className="cta-strip-sub">
-            Tell us about your shop. We'll put together a free audit and
+            Tell us about your business. We'll put together a free audit and
             show you exactly what we'd do to help you grow.
           </p>
           <div className="cta-strip-actions">
