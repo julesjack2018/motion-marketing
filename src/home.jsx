@@ -29,11 +29,11 @@ function RevealSection({ children, delay, className }) {
 
 function Home() {
   const services = [
-    { num: '01', title: 'Website Design', body: 'Fast, professional, designed to convert visitors into booked appointments.', tags: ['Design', 'Dev', 'SEO-Ready'] },
-    { num: '02', title: 'Meta & Google Ads', body: 'Targeted ad campaigns that put your shop in front of local customers who are actively looking.', tags: ['Meta Ads', 'Google Ads', 'Local'] },
-    { num: '03', title: 'Social Media', body: 'Consistent, on-brand content that builds your presence and keeps customers coming back.', tags: ['Content', 'Strategy', 'Growth'] },
-    { num: '04', title: 'SEO', body: 'Show up when customers search for your services. Get found on Google without paying for every click.', tags: ['Local SEO', 'Rankings', 'Traffic'] },
-    { num: '05', title: 'Logo Design', body: 'A brand that looks as professional as the work you do. First impressions matter.', tags: ['Branding', 'Identity', 'Logo'] },
+    { num: '01', title: 'Website Design', body: 'Your website is usually the first thing a customer sees. We make sure it earns their trust and turns that visit into a call, a booking, or a sale.', tags: ['Convert', 'Professional', 'SEO-Ready'] },
+    { num: '02', title: 'Meta & Google Ads', body: 'The fastest way to get in front of people actively looking for what you offer. We run and optimize the campaigns so you can focus on the work.', tags: ['Meta Ads', 'Google Ads', 'Local'] },
+    { num: '03', title: 'Social Media', body: 'Customers look you up before they call. We keep your accounts active and professional so what they find builds trust instead of doubt.', tags: ['Content', 'Strategy', 'Growth'] },
+    { num: '04', title: 'SEO', body: 'Every day, people in your area search for exactly what you offer. SEO is what determines whether they find you or your competitor.', tags: ['Local SEO', 'Rankings', 'Traffic'] },
+    { num: '05', title: 'Logo Design', body: 'Your brand builds trust before anyone ever meets you. We create identities that make you look as professional as you actually are.', tags: ['Branding', 'Identity', 'Logo'] },
   ];
 
   const niches = [
@@ -51,18 +51,18 @@ function Home() {
   const reasons = [
     {
       num: '#01',
-      title: 'Niche Expertise',
-      body: 'We don\'t spread thin across every industry. We go deep on yours. We learn your customers, your competition, and what actually makes someone choose you over the next option.',
+      title: 'We Go Deep',
+      body: 'We don\'t take every client in every industry. We go deep on the businesses we work with — learning your customers, your competition, and exactly what it takes to make someone choose you.',
     },
     {
       num: '#02',
       title: 'Your Business, Our Mission',
-      body: 'Most agencies treat clients like a number. We don\'t. We show up with the same urgency and care as if your business were our own, because we know exactly what\'s at stake.',
+      body: 'Most agencies invoice and disappear. We don\'t work that way. We treat your business like it\'s ours, because we know exactly what\'s on the line when marketing isn\'t working.',
     },
     {
       num: '#03',
-      title: 'Full-Service Growth',
-      body: 'Website. Ads. Social. SEO. Brand. Everything under one roof so your marketing actually works together instead of pulling in five different directions.',
+      title: 'Everything Works Together',
+      body: 'Website. Ads. Social. SEO. Brand. Under one roof, working as one strategy. Because fragmented marketing doesn\'t grow businesses. Coordinated marketing does.',
     },
   ];
 
@@ -90,9 +90,10 @@ function Home() {
               </h1>
 
               <p className="hero-sub">
-                Motion Marketing helps local service businesses get found,
-                look professional, and grow. Websites, ads, social, SEO,
-                and branding from someone who treats your business like her own.
+                More customers. More calls. More booked jobs. Motion Marketing
+                builds and runs the marketing systems that make local service
+                businesses grow consistently, without you having to figure it
+                out alone.
               </p>
 
               <div className="hero-actions">
@@ -177,9 +178,9 @@ function Home() {
                 <h2 className="display-md">Who We Work With</h2>
               </AccentHeader>
               <p className="serve-intro-body">
-                We work with local service businesses of all kinds. Auto is our home
-                base, but if you run a service business and need marketing that
-                actually works, you're exactly who we're here for.
+                From auto shops to HVAC to home services — if you run a local
+                service business and you're serious about growing it, you're
+                exactly who we're here for.
               </p>
             </div>
           </RevealSection>
@@ -250,17 +251,19 @@ function Home() {
 
               <RevealSection delay={1}>
                 <p className="founder-body">
-                  Jules started Motion Marketing after experiencing firsthand what it feels
-                  like when a business doesn't have enough customers. That frustration became fuel.
+                  Jules started Motion Marketing because she lived it. She ran her own business,
+                  poured everything into the work, and still couldn't get enough customers through
+                  the door. Not because the business wasn't good. Because nobody knew it existed.
                 </p>
                 <p className="founder-body">
-                  She built this agency for every business owner who's ever wondered why their hard
-                  work isn't getting the recognition it deserves. Running a business is personal,
-                  and the marketing behind it should be too.
+                  That experience became the whole reason this agency exists. She built it for
+                  every business owner who knows they're better than their online presence suggests
+                  and is tired of watching the competition win customers they shouldn't be losing.
                 </p>
                 <p className="founder-body">
-                  Motion Marketing works with local service businesses of all kinds. Auto is our
-                  home base, but any business ready to grow is exactly who we're here for.
+                  Motion Marketing works with local service businesses of all kinds. Auto is home
+                  base. But if you're running a service business and you're serious about growing
+                  it, you're exactly who we're here for.
                 </p>
               </RevealSection>
 
@@ -290,11 +293,12 @@ function Home() {
             <span className="eyebrow">Ready To Grow?</span>
           </div>
           <h2 className="cta-strip-headline">
-            Your Business<br/>Deserves<br/>More Customers.
+            Let's Find Out<br/>What's<br/>Possible.
           </h2>
           <p className="cta-strip-sub">
-            Let's build the marketing engine your business deserves.
-            Free audit. No pressure, no fluff.
+            A free audit means we look at where you are, tell you honestly
+            what's working and what isn't, and show you exactly what we'd
+            do to grow your business. No pressure. No fluff. Just real answers.
           </p>
           <div className="cta-strip-actions">
             <a href="/contact" className="btn btn-primary btn-lg">Get a Free Audit</a>

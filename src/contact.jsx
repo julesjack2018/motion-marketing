@@ -48,10 +48,10 @@ function Contact() {
   }
 
   const steps = [
-    { num: '1', title: 'Fill the Form', body: 'Takes about 2 minutes. Tell us about your shop and what you need.' },
-    { num: '2', title: 'We Review', body: 'We look at your current online presence within 24 hours.' },
-    { num: '3', title: 'Free Strategy Call', body: 'Quick 20–30 min call to go over what we found and what we\'d do.' },
-    { num: '4', title: 'Custom Proposal', body: 'We send a clear, no-fluff proposal tailored to your shop.' },
+    { num: '1', title: 'Tell Us About You', body: 'Takes about 2 minutes. Tell us about your business, your goals, and what\'s been holding you back.' },
+    { num: '2', title: 'We Dig In', body: 'We review your website, social presence, search visibility, and competitors within 24 hours.' },
+    { num: '3', title: 'Free Strategy Call', body: 'A quick 20-30 min call where we walk you through what we found and exactly what we\'d do.' },
+    { num: '4', title: 'Clear Next Steps', body: 'A specific, no-fluff plan for how we\'d help your business grow. You decide what happens next.' },
   ];
 
   const serviceOptions = [
@@ -105,8 +105,8 @@ function Contact() {
             Get a<br/>Free Audit
           </h1>
           <p className="page-header-sub">
-            Tell us about your shop and we'll show you exactly what we'd
-            do to help you get more customers.
+            Tell us about your business and we'll show you exactly what
+            it would take to grow it.
           </p>
         </div>
       </section>
@@ -136,7 +136,7 @@ function Contact() {
           <div className="contact-grid">
             {/* Form */}
             <div className="contact-form-wrap">
-              <div className="contact-form-title">Tell Us About Your Shop</div>
+              <div className="contact-form-title">Tell Us About Your Business</div>
               <div className="contact-form-sub">
                 All fields marked with * are required. We'll never share your information.
               </div>
@@ -208,7 +208,7 @@ function Contact() {
                       name="businessName"
                       value={form.businessName}
                       onChange={handleChange}
-                      placeholder="Your Shop Name"
+                      placeholder="Your Business Name"
                       required
                     />
                   </div>
@@ -282,13 +282,13 @@ function Contact() {
 
                   {/* Challenge */}
                   <div className="form-group">
-                    <label className="form-label">What's the #1 thing holding your shop back right now?</label>
+                    <label className="form-label">What's the #1 thing holding your business back right now?</label>
                     <textarea
                       className="form-textarea"
                       name="challenge"
                       value={form.challenge}
                       onChange={handleChange}
-                      placeholder="Not enough customers, no online presence, bad reviews, etc."
+                      placeholder="Not enough customers, no online presence, losing to competitors, etc."
                     />
                   </div>
 
@@ -386,10 +386,10 @@ function Contact() {
               <div className="contact-info-card">
                 <div className="contact-info-title">What You'll Get</div>
                 {[
-                  'A review of your current online presence',
-                  'Honest assessment of what\'s working and what\'s not',
-                  'Specific recommendations for your business',
-                  'No sales pressure, just real advice',
+                  'A real look at your website, social, and search presence',
+                  'Honest feedback on what\'s working and what\'s costing you customers',
+                  'Specific recommendations tailored to your business and goals',
+                  'No pitch, no pressure. Just real answers.',
                 ].map((item, i) => (
                   <div key={i} className="contact-info-item">
                     <div className="contact-info-icon" style={{fontSize: '13px', marginTop: '3px', opacity: 0.6}}>→</div>

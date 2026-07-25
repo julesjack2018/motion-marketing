@@ -32,17 +32,17 @@ function About() {
     {
       num: '01',
       title: 'Niche First',
-      body: 'Generic marketing doesn\'t work. We go deep on your specific industry so we understand your customers, your competition, and what actually moves the needle for businesses like yours.',
+      body: 'Generalist agencies don\'t win for niche businesses. We go deep on your industry, your customers, and your competition so the marketing we build actually fits your business instead of being copied from someone else\'s.',
     },
     {
       num: '02',
       title: 'Ownership Mentality',
-      body: 'We treat every client\'s business like it\'s our own. That means honest feedback, proactive ideas, and showing up even when things need to be fixed, not just when things are easy.',
+      body: 'We show up like it\'s our name on the door. Honest when things need to change. Proactive when we see an opportunity. Present when things are hard, not just when things are going well.',
     },
     {
       num: '03',
       title: 'Real Results Only',
-      body: 'Vanity metrics don\'t pay the bills. We focus on the numbers that matter: calls, bookings, leads, and revenue. Everything we do points back to actual growth.',
+      body: 'Likes and impressions don\'t pay rent. We focus on the numbers that actually matter: calls, leads, bookings, and revenue. Every decision we make points back to one question: does this grow the business?',
     },
   ];
 
@@ -58,8 +58,8 @@ function About() {
             About<br/>Motion Marketing
           </h1>
           <p className="page-header-sub">
-            Built by someone who knows what it's like to run a business
-            that doesn't have enough customers.
+            Built by someone who lived the frustration of running a great
+            business that nobody knew existed, and decided to do something about it.
           </p>
         </div>
       </section>
@@ -83,35 +83,34 @@ function About() {
             <div>
               <RevealSection>
                 <p className="about-story-intro">
-                  Motion Marketing started with a feeling most business owners know
-                  but rarely talk about: the quiet frustration of working hard every
-                  day and still not having enough customers.
+                  Motion Marketing started from a feeling most business owners know
+                  but don't usually say out loud: you built something good, you work
+                  hard every day, and still the phone isn't ringing enough.
                 </p>
               </RevealSection>
 
               <RevealSection delay={1}>
                 <div className="about-story-body">
                   <p>
-                    Jules Battiato started her first business and poured everything into the
-                    work itself: the craft, the service, the quality. But the phone wasn't
-                    ringing the way it should've been. Not because the business wasn't good.
-                    Because nobody knew it existed.
+                    Jules Battiato started her first business and did everything right: the
+                    craft, the service, the quality. But the phone wasn't ringing the way it
+                    should've been. Not because the business wasn't good. Because nobody knew
+                    it existed.
                   </p>
                   <p>
                     That experience, being a great operator with a marketing problem, became
-                    the foundation of Motion Marketing. Jules learned everything she could about
-                    digital marketing, ran her own campaigns, built her own web presence, and
-                    figured out what actually moves the needle for small businesses.
+                    the whole reason Motion Marketing exists. Jules spent years figuring out
+                    what actually moves the needle for small businesses. Not theory. Real
+                    campaigns, real results, real lessons.
                   </p>
                   <p>
-                    She built this agency for local service businesses of all kinds. Auto is her
-                    home base and where she thrives, but if you run a service business and need
-                    marketing that actually works, you're exactly who this was built for.
+                    She built this agency because she never wants another business owner to feel
+                    like their hard work is invisible. If you're doing great work and still not
+                    getting the customers you deserve, that's exactly the problem we exist to solve.
                   </p>
                   <p>
-                    Motion Marketing exists for one reason: to make sure no business owner ever
-                    has to feel like their hard work is going unnoticed. Your business is your
-                    legacy. We treat it that way.
+                    We work with local service businesses of all kinds. Auto is home base. But
+                    the mission is always the same: help good businesses grow.
                   </p>
                 </div>
               </RevealSection>
@@ -167,8 +166,8 @@ function About() {
             Let's Build<br/>Something.
           </h2>
           <p className="cta-strip-sub">
-            Tell us about your business. We'll put together a free audit and
-            show you exactly what we'd do to help you grow.
+            Tell us where you are and where you want to be. We'll put together
+            a free audit and give you a clear, honest picture of what's possible.
           </p>
           <div className="cta-strip-actions">
             <a href="/contact" className="btn btn-primary btn-lg">Get a Free Audit</a>
