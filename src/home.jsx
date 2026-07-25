@@ -233,11 +233,11 @@ function Home() {
           <div className="founder-grid">
             <div className="founder-photo">
               <div className="founder-photo-frame">
-                <div className="photo-placeholder" style={{height: '100%', minHeight: '500px'}}>
-                  <span>👤</span>
-                  [Jules Photo]<br/>
-                  <small style={{color: 'var(--text-muted)', fontSize: '11px'}}>Replace with your photo</small>
-                </div>
+                <img
+                  src="/assets/jules.jpg"
+                  alt="Jules Battiato, Founder of Motion Marketing LLC"
+                  style={{width: '100%', height: '100%', objectFit: 'cover', display: 'block'}}
+                />
               </div>
             </div>
 
