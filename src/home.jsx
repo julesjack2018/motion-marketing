@@ -178,9 +178,9 @@ function Home() {
                 <h2 className="display-md">Who We Work With</h2>
               </AccentHeader>
               <p className="serve-intro-body">
-                Auto is home base. But if you run any kind of local service
-                business and you're serious about growing it, you're exactly
-                who we're here for.
+                Auto is our specialty. But good marketing is good marketing,
+                and we love helping any local service business that's serious
+                about growing.
               </p>
             </div>
           </RevealSection>
