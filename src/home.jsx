@@ -52,7 +52,7 @@ function Home() {
     {
       num: '#01',
       title: 'We Go Deep',
-      body: 'We don\'t take every client in every industry. We go deep on the businesses we work with — learning your customers, your competition, and exactly what it takes to make someone choose you.',
+      body: 'We don\'t take every client in every industry. We go deep on the businesses we work with, learning your customers, your competition, and exactly what it takes to make someone choose you.',
     },
     {
       num: '#02',
@@ -178,7 +178,7 @@ function Home() {
                 <h2 className="display-md">Who We Work With</h2>
               </AccentHeader>
               <p className="serve-intro-body">
-                From auto shops to HVAC to home services — if you run a local
+                From auto shops to HVAC to home services. If you run a local
                 service business and you're serious about growing it, you're
                 exactly who we're here for.
               </p>
@@ -252,12 +252,13 @@ function Home() {
               <RevealSection delay={1}>
                 <p className="founder-body">
                   Jules started Motion Marketing because she lived it. She ran her own business,
-                  poured everything into the work, and still couldn't get enough customers through
-                  the door. Not because the business wasn't good. Because nobody knew it existed.
+                  poured everything into it, and still couldn't get the sales to match the work
+                  she was putting in. Not because the product wasn't good. Because not enough
+                  people knew it existed.
                 </p>
                 <p className="founder-body">
-                  That experience became the whole reason this agency exists. She built it for
-                  every business owner who knows they're better than their online presence suggests
+                  That experience became the reason this agency exists. She built it for every
+                  business owner who knows they're better than their online presence suggests
                   and is tired of watching the competition win customers they shouldn't be losing.
                 </p>
                 <p className="founder-body">

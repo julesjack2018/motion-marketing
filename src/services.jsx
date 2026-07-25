@@ -38,7 +38,7 @@ function Services() {
         'A design built around your business, not a template someone else already has',
         'Looks great on every phone, tablet, and screen so you never lose a mobile visitor',
         'Fast load times that keep people on the page instead of bouncing to a competitor',
-        'Built to rank from day one — structure, metadata, and schema dialed in',
+        'Built to rank from day one with structure, metadata, and schema dialed in',
         'Easy booking or contact flow so customers can reach you the moment they\'re ready',
         'Know exactly where your leads come from so you can make smarter decisions',
         'Copywriting that builds trust before customers ever contact you',
@@ -54,7 +54,7 @@ function Services() {
       body: 'While SEO builds over time, ads put you in front of the right people right now. We build and manage campaigns that target the customers you actually want, in the area you actually serve. Then we optimize until they perform.',
       items: [
         'Campaign strategy built around what your business actually needs to grow',
-        'Ad creative — copy, graphics, and video — that stops the scroll and drives action',
+        'Ad creative (copy, graphics, and video) that stops the scroll and drives action',
         'Geo-targeted campaigns focused on your real service area, not wasted reach',
         'Google Search campaigns that capture customers actively looking for you',
         'Meta campaigns that build local awareness and bring in real leads',

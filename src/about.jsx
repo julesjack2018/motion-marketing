@@ -84,29 +84,29 @@ function About() {
               <RevealSection>
                 <p className="about-story-intro">
                   Motion Marketing started from a feeling most business owners know
-                  but don't usually say out loud: you built something good, you work
-                  hard every day, and still the phone isn't ringing enough.
+                  but don't usually say out loud: you put everything into building
+                  something real, and the sales just aren't where they should be.
                 </p>
               </RevealSection>
 
               <RevealSection delay={1}>
                 <div className="about-story-body">
                   <p>
-                    Jules Battiato started her first business and did everything right: the
-                    craft, the service, the quality. But the phone wasn't ringing the way it
-                    should've been. Not because the business wasn't good. Because nobody knew
-                    it existed.
+                    Jules Battiato started her own business and poured everything into it.
+                    The product was good. The work was real. But the orders weren't coming in
+                    the way they should've been, not because the business wasn't worth it, but
+                    because not enough people knew it existed.
                   </p>
                   <p>
-                    That experience, being a great operator with a marketing problem, became
-                    the whole reason Motion Marketing exists. Jules spent years figuring out
-                    what actually moves the needle for small businesses. Not theory. Real
-                    campaigns, real results, real lessons.
+                    That experience became the foundation of Motion Marketing. Jules dove deep
+                    into digital marketing, figured out what actually moves the needle for small
+                    businesses, and built the agency she wished she'd had access to when she was
+                    on the other side of it.
                   </p>
                   <p>
-                    She built this agency because she never wants another business owner to feel
-                    like their hard work is invisible. If you're doing great work and still not
-                    getting the customers you deserve, that's exactly the problem we exist to solve.
+                    She built this for every business owner who's putting in the work and still
+                    not seeing the growth they deserve. If that's you, this is exactly where you
+                    should be.
                   </p>
                   <p>
                     We work with local service businesses of all kinds. Auto is home base. But

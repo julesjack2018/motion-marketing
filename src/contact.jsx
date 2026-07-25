@@ -49,8 +49,8 @@ function Contact() {
 
   const steps = [
     { num: '1', title: 'Tell Us About You', body: 'Takes about 2 minutes. Tell us about your business, your goals, and what\'s been holding you back.' },
-    { num: '2', title: 'We Dig In', body: 'We review your website, social presence, search visibility, and competitors within 24 hours.' },
-    { num: '3', title: 'Free Strategy Call', body: 'A quick 20-30 min call where we walk you through what we found and exactly what we\'d do.' },
+    { num: '2', title: 'We Dig In', body: 'We review your website, social presence, and search visibility to understand exactly where you stand.' },
+    { num: '3', title: 'Free Strategy Call', body: 'We get on a call, walk you through what we found, and show you exactly what we\'d do to grow it.' },
     { num: '4', title: 'Clear Next Steps', body: 'A specific, no-fluff plan for how we\'d help your business grow. You decide what happens next.' },
   ];
 
@@ -82,8 +82,8 @@ function Contact() {
                 <div className="form-success-icon">✓</div>
                 <div className="form-success-title">We Got It.</div>
                 <p className="form-success-body">
-                  Thanks for reaching out. We'll review your info and get back to you within
-                  24 hours to set up your free strategy call.
+                  Thanks for reaching out. We'll review your info and be in touch soon
+                  to set up your free strategy call.
                 </p>
               </div>
             </div>
