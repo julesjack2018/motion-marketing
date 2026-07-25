@@ -178,9 +178,10 @@ function Home() {
                 <h2 className="display-md">Who We Work With</h2>
               </AccentHeader>
               <p className="serve-intro-body">
-                Auto is our specialty. But good marketing is good marketing,
-                and we love helping any local service business that's serious
-                about growing.
+                The automotive industry isn't just a niche to us, it's part
+                of who we are. But at the end of the day, we love working
+                with people who care deeply about what they do, whatever
+                industry they're in.
               </p>
             </div>
           </RevealSection>
