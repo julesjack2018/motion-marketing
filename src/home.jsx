@@ -43,10 +43,6 @@ function Home() {
     'Detail & PPF Shops',
     'Performance Shops',
     'Auto Repair',
-    'HVAC Companies',
-    'Landscaping',
-    'Home Services',
-    'Electricians',
   ];
 
   const reasons = [
@@ -182,9 +178,9 @@ function Home() {
                 <h2 className="display-md">Who We Work With</h2>
               </AccentHeader>
               <p className="serve-intro-body">
-                From auto shops to HVAC to home services. If you run a local
-                service business and you're serious about growing it, you're
-                exactly who we're here for.
+                Auto is home base. But if you run any kind of local service
+                business and you're serious about growing it, you're exactly
+                who we're here for.
               </p>
             </div>
           </RevealSection>
@@ -198,7 +194,7 @@ function Home() {
               </RevealSection>
             ))}
           </div>
-          <p className="serve-more">Not on the list? If you run a local service business, reach out anyway.</p>
+          <p className="serve-more">...and many more local service businesses ready to grow.</p>
         </div>
       </section>
 
