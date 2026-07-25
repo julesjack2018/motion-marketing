@@ -160,6 +160,12 @@ function Footer() {
                   <a href="https://www.instagram.com/motionmarketingads/" target="_blank" rel="noopener">@motionmarketingads</a>
                 </div>
               </div>
+              <div className="footer-contact-item">
+                <div className="footer-contact-label">Hours</div>
+                <div className="footer-contact-value" style={{fontSize: '13px', color: 'var(--text-muted)'}}>
+                  Mon–Fri, 8am–6pm<br/>Usually responds within one business day
+                </div>
+              </div>
             </div>
           </div>
         </div>

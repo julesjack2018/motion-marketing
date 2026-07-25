@@ -28,6 +28,8 @@ function RevealSection({ children, delay, className }) {
 }
 
 function Home() {
+  const [expanded, setExpanded] = React.useState(null);
+
   const services = [
     { num: '01', title: 'Website Design', body: 'Your website is usually the first thing a customer sees. We make sure it earns their trust and turns that visit into a call, a booking, or a sale.', tags: ['Convert', 'Professional', 'SEO-Ready'] },
     { num: '02', title: 'Meta & Google Ads', body: 'The fastest way to get in front of people actively looking for what you offer. We run and optimize the campaigns so you can focus on the work.', tags: ['Meta Ads', 'Google Ads', 'Local'] },
@@ -45,7 +47,7 @@ function Home() {
     { icon: '🌿', name: 'Landscaping' },
     { icon: '🏠', name: 'Home Services' },
     { icon: '🔌', name: 'Electricians' },
-    { icon: '✚', name: 'And More' },
+    { icon: '➕', name: 'And More' },
   ];
 
   const reasons = [
@@ -53,16 +55,19 @@ function Home() {
       num: '#01',
       title: 'We Go Deep',
       body: 'We don\'t take every client in every industry. We go deep on the businesses we work with, learning your customers, your competition, and exactly what it takes to make someone choose you.',
+      detail: 'We learn your industry before we touch your marketing. We study what your ideal customer searches for, what your competitors are doing, and what messaging actually converts for businesses like yours. You get a strategy that fits, not a template someone else already used.',
     },
     {
       num: '#02',
       title: 'Your Business, Our Mission',
       body: 'Most agencies invoice and disappear. We don\'t work that way. We treat your business like it\'s ours, because we know exactly what\'s on the line when marketing isn\'t working.',
+      detail: 'We bring ideas to the table before you ask. We flag problems before they become expensive. We show up with the same urgency as if our own name were on the door. Because if your business grows, we\'ve done our job right.',
     },
     {
       num: '#03',
       title: 'Everything Works Together',
       body: 'Website. Ads. Social. SEO. Brand. Under one roof, working as one strategy. Because fragmented marketing doesn\'t grow businesses. Coordinated marketing does.',
+      detail: 'When your website, ads, social media, and SEO speak the same language, the result is compounding growth. Each piece reinforces the others. Instead of multiple contractors who don\'t talk, you get one team with one goal: more business for you.',
     },
   ];
 
@@ -90,10 +95,10 @@ function Home() {
               </h1>
 
               <p className="hero-sub">
-                More customers. More calls. More booked jobs. Motion Marketing
-                builds and runs the marketing systems that make local service
-                businesses grow consistently, without you having to figure it
-                out alone.
+                Marketing shouldn't leave you wondering if it's working. We
+                build websites, ads, and growth systems that bring in more
+                calls, more booked jobs, and more revenue for local service
+                businesses.
               </p>
 
               <div className="hero-actions">
@@ -105,16 +110,16 @@ function Home() {
 
               <div className="hero-stats">
                 <div>
-                  <div className="hero-stat-value">Local</div>
-                  <div className="hero-stat-label">Business Focus</div>
+                  <div className="hero-stat-value">✓</div>
+                  <div className="hero-stat-label">Founder-Led</div>
                 </div>
                 <div>
-                  <div className="hero-stat-value">5</div>
-                  <div className="hero-stat-label">Core Services</div>
+                  <div className="hero-stat-value">✓</div>
+                  <div className="hero-stat-label">Free Growth Audit</div>
                 </div>
                 <div>
-                  <div className="hero-stat-value">NJ</div>
-                  <div className="hero-stat-label">Based &amp; Beyond</div>
+                  <div className="hero-stat-value">✓</div>
+                  <div className="hero-stat-label">Strategy Before Sales</div>
                 </div>
               </div>
             </div>
@@ -169,6 +174,39 @@ function Home() {
 
       <AccentLine />
 
+      {/* ── Process ── */}
+      <section className="section process-section">
+        <div className="container">
+          <RevealSection>
+            <AccentHeader>
+              <h2 className="display-md">What Working With Us Looks Like</h2>
+            </AccentHeader>
+            <p style={{fontSize: '16px', color: 'var(--text-secondary)', maxWidth: '520px', lineHeight: '1.7', marginTop: 'var(--sp-3)'}}>
+              Most business owners are nervous because they don't know what happens after they reach out. Here's exactly what to expect.
+            </p>
+          </RevealSection>
+
+          <div className="process-grid">
+            {[
+              { num: '01', title: 'Free Audit', body: 'We review your website, online presence, and current marketing to understand exactly where you stand.' },
+              { num: '02', title: 'Strategy Call', body: 'We walk you through what we found: what\'s working, what\'s not, and where the biggest opportunities are.' },
+              { num: '03', title: 'We Build', body: 'We create your website, campaigns, branding, or strategy with your goals at the center of every decision.' },
+              { num: '04', title: 'You Grow', body: 'We keep improving based on real data. Your results get better over time, not just at launch.' },
+            ].map((s, i) => (
+              <RevealSection key={s.num} delay={i + 1}>
+                <div className="process-step">
+                  <div className="process-num">{s.num}</div>
+                  <div className="process-title">{s.title}</div>
+                  <div className="process-body">{s.body}</div>
+                </div>
+              </RevealSection>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <AccentLine />
+
       {/* ── Who We Serve ── */}
       <section className="section serve-section">
         <div className="container">
@@ -195,6 +233,7 @@ function Home() {
               </RevealSection>
             ))}
           </div>
+          <p className="serve-more">...and many more local service businesses ready to grow.</p>
         </div>
       </section>
 
@@ -214,10 +253,51 @@ function Home() {
           <div className="why-grid">
             {reasons.map((w, i) => (
               <RevealSection key={w.num} delay={i + 1}>
-                <div className="why-item">
+                <div
+                  className="why-item"
+                  onClick={() => setExpanded(expanded === w.num ? null : w.num)}
+                >
                   <div className="why-number">{w.num}</div>
                   <div className="why-title">{w.title}</div>
                   <div className="why-body">{w.body}</div>
+                  {expanded === w.num && (
+                    <div className="why-detail">{w.detail}</div>
+                  )}
+                  <div className="why-toggle">{expanded === w.num ? '↑ Less' : '↓ More'}</div>
+                </div>
+              </RevealSection>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <AccentLine />
+
+      {/* ── Trust ── */}
+      <section className="section trust-section">
+        <div className="container">
+          <RevealSection>
+            <div className="trust-intro">
+              <AccentHeader>
+                <h2 className="display-md">What You Can Expect</h2>
+              </AccentHeader>
+            </div>
+          </RevealSection>
+          <div className="trust-grid">
+            {[
+              'Work directly with the founder.',
+              'Every strategy built specifically for your business.',
+              'No cookie-cutter marketing.',
+              'Honest, even if we aren\'t the right fit.',
+              'No pressure. No fluff.',
+              'Clear reporting on what matters.',
+              'Strategy before we spend a dollar.',
+              'Built from real business experience.',
+            ].map((item, i) => (
+              <RevealSection key={i} delay={(i % 4) + 1}>
+                <div className="trust-item">
+                  <div className="trust-check">✓</div>
+                  <div className="trust-text">{item}</div>
                 </div>
               </RevealSection>
             ))}
@@ -294,7 +374,7 @@ function Home() {
             <span className="eyebrow">Ready To Grow?</span>
           </div>
           <h2 className="cta-strip-headline">
-            Let's Find Out<br/>What's<br/>Possible.
+            Let's Grow<br/>Something<br/>Great.
           </h2>
           <p className="cta-strip-sub">
             A free audit means we look at where you are, tell you honestly

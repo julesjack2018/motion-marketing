@@ -83,34 +83,31 @@ function About() {
             <div>
               <RevealSection>
                 <p className="about-story-intro">
-                  Motion Marketing started from a feeling most business owners know
-                  but don't usually say out loud: you put everything into building
-                  something real, and the sales just aren't where they should be.
+                  Hi, I'm Jules.
                 </p>
               </RevealSection>
 
               <RevealSection delay={1}>
                 <div className="about-story-body">
                   <p>
-                    Jules Battiato started her own business and poured everything into it.
-                    The product was good. The work was real. But the orders weren't coming in
-                    the way they should've been, not because the business wasn't worth it, but
-                    because not enough people knew it existed.
+                    I poured everything into my own business. The product was good. The work
+                    was real. But people couldn't buy from a business they'd never found.
+                    That frustration became an obsession with learning marketing the right way.
                   </p>
                   <p>
-                    That experience became the foundation of Motion Marketing. Jules dove deep
-                    into digital marketing, figured out what actually moves the needle for small
-                    businesses, and built the agency she wished she'd had access to when she was
-                    on the other side of it.
+                    Not theory. Real campaigns, real feedback, real lessons. What started with
+                    growing my own brand became a deep focus on understanding why some local
+                    businesses grow while others stay invisible.
                   </p>
                   <p>
-                    She built this for every business owner who's putting in the work and still
-                    not seeing the growth they deserve. If that's you, this is exactly where you
-                    should be.
+                    Now I use that same process to help local service businesses stop getting
+                    overlooked and start growing consistently. I work directly with every client.
+                    No handoffs. No account managers. Just me, your business, and a real
+                    strategy built around your goals.
                   </p>
                   <p>
-                    We work with local service businesses of all kinds. Auto is home base. But
-                    the mission is always the same: help good businesses grow.
+                    If your business deserves more attention than it's getting today, you're
+                    exactly who Motion Marketing was built for.
                   </p>
                 </div>
               </RevealSection>
