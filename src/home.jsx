@@ -194,12 +194,12 @@ function Home() {
                 </div>
               </RevealSection>
             ))}
-            <RevealSection delay={2} className="serve-more-col">
-              <div className="serve-card serve-card-more">
-                <span className="serve-card-name">...and many more local service businesses ready to grow.</span>
-              </div>
-            </RevealSection>
           </div>
+          <RevealSection delay={2}>
+            <div className="serve-card serve-card-more">
+              <span className="serve-card-name">...and many more local service businesses ready to grow.</span>
+            </div>
+          </RevealSection>
         </div>
       </section>
 

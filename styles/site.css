@@ -514,7 +514,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   grid-template-columns: repeat(4, 1fr);
   gap: var(--sp-3);
 }
-.serve-more-col { grid-column: 1 / -1; }
+
 .serve-card {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -1418,9 +1418,11 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 /* ─── Serve More ─────────────────────────────────────── */
 .serve-card-more {
+  margin-top: var(--sp-3);
   font-style: italic;
   background: var(--bg);
   justify-content: center;
+  width: 100%;
 }
 
 /* ─── Responsive ─────────────────────────────────────── */
