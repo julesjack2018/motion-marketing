@@ -188,14 +188,18 @@ function Home() {
 
           <div className="serve-grid">
             {niches.map((n, i) => (
-              <RevealSection key={n} delay={(i % 3) + 1}>
+              <RevealSection key={n} delay={(i % 4) + 1}>
                 <div className="serve-card">
                   <span className="serve-card-name">{n}</span>
                 </div>
               </RevealSection>
             ))}
+            <RevealSection delay={2} className="serve-more-col">
+              <div className="serve-card serve-card-more">
+                <span className="serve-card-name">...and many more local service businesses ready to grow.</span>
+              </div>
+            </RevealSection>
           </div>
-          <p className="serve-more">...and many more local service businesses ready to grow.</p>
         </div>
       </section>
 

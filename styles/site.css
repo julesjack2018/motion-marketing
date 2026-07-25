@@ -511,9 +511,10 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 }
 .serve-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: var(--sp-3);
 }
+.serve-more-col { grid-column: 1 / -1; }
 .serve-card {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -1416,16 +1417,10 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .form-back-btn:hover { color: var(--text-secondary); }
 
 /* ─── Serve More ─────────────────────────────────────── */
-.serve-more {
-  margin-top: var(--sp-5);
-  padding: var(--sp-4) var(--sp-6);
-  border: 1px solid var(--border);
-  border-radius: var(--r-md);
-  background: var(--surface);
-  text-align: center;
-  font-size: 14px;
-  color: var(--text-secondary);
+.serve-card-more {
   font-style: italic;
+  background: var(--bg);
+  justify-content: center;
 }
 
 /* ─── Responsive ─────────────────────────────────────── */
