@@ -39,15 +39,14 @@ function Home() {
   ];
 
   const niches = [
-    { icon: '🎨', name: 'Tint & Wrap Shops' },
-    { icon: '✨', name: 'Detail & PPF Shops' },
-    { icon: '⚡', name: 'Performance Shops' },
-    { icon: '🔧', name: 'Auto Repair' },
-    { icon: '❄️', name: 'HVAC Companies' },
-    { icon: '🌿', name: 'Landscaping' },
-    { icon: '🏠', name: 'Home Services' },
-    { icon: '🔌', name: 'Electricians' },
-    { icon: '➕', name: 'And More' },
+    'Tint & Wrap Shops',
+    'Detail & PPF Shops',
+    'Performance Shops',
+    'Auto Repair',
+    'HVAC Companies',
+    'Landscaping',
+    'Home Services',
+    'Electricians',
   ];
 
   const reasons = [
@@ -111,15 +110,15 @@ function Home() {
               <div className="hero-stats">
                 <div>
                   <div className="hero-stat-value">✓</div>
-                  <div className="hero-stat-label">Founder-Led</div>
+                  <div className="hero-stat-label">Work directly with Jules</div>
                 </div>
                 <div>
                   <div className="hero-stat-value">✓</div>
-                  <div className="hero-stat-label">Free Growth Audit</div>
+                  <div className="hero-stat-label">Free audit, zero commitment</div>
                 </div>
                 <div>
                   <div className="hero-stat-value">✓</div>
-                  <div className="hero-stat-label">Strategy Before Sales</div>
+                  <div className="hero-stat-label">Strategy before we spend a dollar</div>
                 </div>
               </div>
             </div>
@@ -192,10 +191,9 @@ function Home() {
 
           <div className="serve-grid">
             {niches.map((n, i) => (
-              <RevealSection key={n.name} delay={(i % 3) + 1}>
+              <RevealSection key={n} delay={(i % 3) + 1}>
                 <div className="serve-card">
-                  <span className="serve-card-icon">{n.icon}</span>
-                  <span className="serve-card-name">{n.name}</span>
+                  <span className="serve-card-name">{n}</span>
                 </div>
               </RevealSection>
             ))}
@@ -223,7 +221,7 @@ function Home() {
               { num: '01', title: 'Free Audit', body: 'We review your website, online presence, and current marketing to understand exactly where you stand.' },
               { num: '02', title: 'Strategy Call', body: 'We walk you through what we found: what\'s working, what\'s not, and where the biggest opportunities are.' },
               { num: '03', title: 'We Build', body: 'We create your website, campaigns, branding, or strategy with your goals at the center of every decision.' },
-              { num: '04', title: 'You Grow', body: 'We keep improving based on real data. Your results get better over time, not just at launch.' },
+              { num: '04', title: 'We Optimize', body: 'We keep improving based on real data. Your results get better over time, not just at launch.' },
             ].map((s, i) => (
               <RevealSection key={s.num} delay={i + 1}>
                 <div className="process-step">
@@ -289,10 +287,8 @@ function Home() {
               { title: 'Strategy First', body: 'Every recommendation starts with your business goals, not the latest marketing trend.' },
               { title: 'Honest Always', body: 'If we don\'t think you should spend money yet, we\'ll tell you that. Even if it costs us the job.' },
               { title: 'Built Around You', body: 'No cookie-cutter packages. Every strategy is built specifically for your business and your goals.' },
-              { title: 'No Pressure', body: 'We\'d rather lose a client than push you into something that isn\'t the right fit.' },
               { title: 'Clear Reporting', body: 'You\'ll always know what we\'re doing, why we\'re doing it, and how it\'s performing.' },
               { title: 'Strategy Before Spend', body: 'We never suggest spending money on ads until the right foundation is in place.' },
-              { title: 'Real Experience', body: 'Built on lessons learned from growing a real business, not just coursework.' },
             ].map((item, i) => (
               <RevealSection key={i} delay={(i % 4) + 1}>
                 <div className="trust-item">
