@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /src/
+Disallow: /scripts/
+Disallow: /styles/
+
+Sitemap: https://www.motionmarketingagency.com/sitemap.xml

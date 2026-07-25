@@ -1,0 +1,13 @@
+{
+  "name": "motion-marketing-build",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node compile-jsx.mjs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-react": "^7.29.0"
+  }
+}
