@@ -1284,6 +1284,48 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   color: var(--text-secondary);
   line-height: 1.5;
 }
+.trust-card-title {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  margin-bottom: var(--sp-1);
+}
+.trust-card-body {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* ─── Founder Quote ──────────────────────────────────── */
+.founder-quote-section { background: var(--surface); }
+.founder-quote-block {
+  text-align: center;
+  border: none;
+  padding: var(--sp-8) 0;
+  max-width: 740px;
+  margin: 0 auto;
+}
+.founder-quote-text {
+  font-family: var(--font-display);
+  font-size: clamp(24px, 3.5vw, 44px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  line-height: 1.15;
+  margin-bottom: var(--sp-5);
+}
+.founder-quote-cite {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-style: normal;
+}
 
 /* ─── Process Section ────────────────────────────────── */
 .process-section {}

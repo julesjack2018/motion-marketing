@@ -83,16 +83,17 @@ function About() {
             <div>
               <RevealSection>
                 <p className="about-story-intro">
-                  Hi, I'm Jules.
+                  I learned something frustrating early on: having a great business isn't enough if nobody knows it exists.
                 </p>
               </RevealSection>
 
               <RevealSection delay={1}>
                 <div className="about-story-body">
                   <p>
-                    I poured everything into my own business. The product was good. The work
-                    was real. But people couldn't buy from a business they'd never found.
-                    That frustration became an obsession with learning marketing the right way.
+                    Hi, I'm Jules. I poured everything into my own business. The product was
+                    good. The work was real. But people couldn't buy from a business they'd
+                    never found. That frustration became an obsession with learning marketing
+                    the right way.
                   </p>
                   <p>
                     Not theory. Real campaigns, real feedback, real lessons. What started with

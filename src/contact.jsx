@@ -280,7 +280,7 @@ function Contact() {
                 <div className="contact-info-item">
                   <div className="contact-info-icon">📞</div>
                   <div>
-                    <div className="contact-info-label">Phone / Text</div>
+                    <div className="contact-info-label">Call or Text</div>
                     <div className="contact-info-value">
                       <a href="tel:7327725590">732-772-5590</a>
                     </div>

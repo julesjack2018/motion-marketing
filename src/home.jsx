@@ -174,7 +174,39 @@ function Home() {
 
       <AccentLine />
 
-      {/* ── Process ── */}
+      {/* ── Who We Work With ── */}
+      <section className="section serve-section">
+        <div className="container">
+          <RevealSection>
+            <div className="serve-intro">
+              <AccentHeader>
+                <h2 className="display-md">Who We Work With</h2>
+              </AccentHeader>
+              <p className="serve-intro-body">
+                From auto shops to HVAC to home services. If you run a local
+                service business and you're serious about growing it, you're
+                exactly who we're here for.
+              </p>
+            </div>
+          </RevealSection>
+
+          <div className="serve-grid">
+            {niches.map((n, i) => (
+              <RevealSection key={n.name} delay={(i % 3) + 1}>
+                <div className="serve-card">
+                  <span className="serve-card-icon">{n.icon}</span>
+                  <span className="serve-card-name">{n.name}</span>
+                </div>
+              </RevealSection>
+            ))}
+          </div>
+          <p className="serve-more">...and many more local service businesses ready to grow.</p>
+        </div>
+      </section>
+
+      <AccentLine />
+
+      {/* ── What Working With Us Looks Like ── */}
       <section className="section process-section">
         <div className="container">
           <RevealSection>
@@ -202,38 +234,6 @@ function Home() {
               </RevealSection>
             ))}
           </div>
-        </div>
-      </section>
-
-      <AccentLine />
-
-      {/* ── Who We Serve ── */}
-      <section className="section serve-section">
-        <div className="container">
-          <RevealSection>
-            <div className="serve-intro">
-              <AccentHeader>
-                <h2 className="display-md">Who We Work With</h2>
-              </AccentHeader>
-              <p className="serve-intro-body">
-                From auto shops to HVAC to home services. If you run a local
-                service business and you're serious about growing it, you're
-                exactly who we're here for.
-              </p>
-            </div>
-          </RevealSection>
-
-          <div className="serve-grid">
-            {niches.map((n, i) => (
-              <RevealSection key={n.name} delay={(i % 3) + 1}>
-                <div className="serve-card">
-                  <span className="serve-card-icon">{n.icon}</span>
-                  <span className="serve-card-name">{n.name}</span>
-                </div>
-              </RevealSection>
-            ))}
-          </div>
-          <p className="serve-more">...and many more local service businesses ready to grow.</p>
         </div>
       </section>
 
@@ -285,23 +285,40 @@ function Home() {
           </RevealSection>
           <div className="trust-grid">
             {[
-              'Work directly with the founder.',
-              'Every strategy built specifically for your business.',
-              'No cookie-cutter marketing.',
-              'Honest, even if we aren\'t the right fit.',
-              'No pressure. No fluff.',
-              'Clear reporting on what matters.',
-              'Strategy before we spend a dollar.',
-              'Built from real business experience.',
+              { title: 'Founder-Led', body: 'You\'ll work directly with me on everything. No account managers, no handoffs, no surprises.' },
+              { title: 'Strategy First', body: 'Every recommendation starts with your business goals, not the latest marketing trend.' },
+              { title: 'Honest Always', body: 'If we don\'t think you should spend money yet, we\'ll tell you that. Even if it costs us the job.' },
+              { title: 'Built Around You', body: 'No cookie-cutter packages. Every strategy is built specifically for your business and your goals.' },
+              { title: 'No Pressure', body: 'We\'d rather lose a client than push you into something that isn\'t the right fit.' },
+              { title: 'Clear Reporting', body: 'You\'ll always know what we\'re doing, why we\'re doing it, and how it\'s performing.' },
+              { title: 'Strategy Before Spend', body: 'We never suggest spending money on ads until the right foundation is in place.' },
+              { title: 'Real Experience', body: 'Built on lessons learned from growing a real business, not just coursework.' },
             ].map((item, i) => (
               <RevealSection key={i} delay={(i % 4) + 1}>
                 <div className="trust-item">
                   <div className="trust-check">✓</div>
-                  <div className="trust-text">{item}</div>
+                  <div>
+                    <div className="trust-card-title">{item.title}</div>
+                    <div className="trust-card-body">{item.body}</div>
+                  </div>
                 </div>
               </RevealSection>
             ))}
           </div>
+        </div>
+      </section>
+
+      <AccentLine />
+
+      {/* ── Founder Quote ── */}
+      <section className="section-sm founder-quote-section">
+        <div className="container">
+          <RevealSection>
+            <blockquote className="founder-quote-block">
+              <p className="founder-quote-text">"Good marketing isn't magic. It's consistency."</p>
+              <cite className="founder-quote-cite">Jules Battiato, Founder of Motion Marketing LLC</cite>
+            </blockquote>
+          </RevealSection>
         </div>
       </section>
 

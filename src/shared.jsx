@@ -143,7 +143,7 @@ function Footer() {
             <div className="footer-col-title">Contact</div>
             <div className="footer-contact-list">
               <div className="footer-contact-item">
-                <div className="footer-contact-label">Phone / Text</div>
+                <div className="footer-contact-label">Call or Text</div>
                 <div className="footer-contact-value">
                   <a href="tel:7327725590">732-772-5590</a>
                 </div>
@@ -163,7 +163,7 @@ function Footer() {
               <div className="footer-contact-item">
                 <div className="footer-contact-label">Hours</div>
                 <div className="footer-contact-value" style={{fontSize: '13px', color: 'var(--text-muted)'}}>
-                  Mon–Fri, 8am–6pm<br/>Usually responds within one business day
+                  Mon–Fri, 10AM–7PM<br/>Usually responds within one business day
                 </div>
               </div>
             </div>
