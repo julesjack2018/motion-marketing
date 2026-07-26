@@ -83,6 +83,9 @@ function Nav() {
         <a href="/contact" className="btn btn-primary btn-lg nav-mobile-cta" onClick={() => setOpen(false)}>
           Get a Free Audit
         </a>
+        <a href="tel:7327725590" className="nav-mobile-phone" onClick={() => setOpen(false)}>
+          Call or Text: 732-772-5590
+        </a>
       </div>
     </React.Fragment>
   );
@@ -163,7 +166,7 @@ function Footer() {
               <div className="footer-contact-item">
                 <div className="footer-contact-label">Hours</div>
                 <div className="footer-contact-value" style={{fontSize: '13px', color: 'var(--text-muted)'}}>
-                  Mon–Fri, 10AM–7PM<br/>Usually responds within one business day
+                  Mon–Fri, 10AM–7PM<br/>Usually responds the same day
                 </div>
               </div>
             </div>

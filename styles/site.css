@@ -270,6 +270,14 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 }
 .nav-mobile-link:hover { color: var(--text-primary); }
 .nav-mobile-cta { margin-top: var(--sp-3); }
+.nav-mobile-phone {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  padding: var(--sp-2) 0;
+}
 
 /* ─── Hero ───────────────────────────────────────────── */
 .hero {
