@@ -30,7 +30,7 @@ function Contact() {
     setStatus('sending');
     try {
       // Replace YOUR_FORM_ID with your Formspree endpoint
-      const res = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      const res = await fetch('https://formspree.io/f/mqerwepd', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({
