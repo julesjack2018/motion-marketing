@@ -26,13 +26,15 @@ function AccentHeader({ children }) {
 function Nav() {
   const scrolled = useScrolled();
   const [open, setOpen] = React.useState(false);
+  const [servicesOpen, setServicesOpen] = React.useState(false);
   const currentPath = window.location.pathname.replace(/\/$/, '') || '/';
 
-  const links = [
-    { href: '/',        label: 'Home' },
-    { href: '/services', label: 'Services' },
-    { href: '/about',   label: 'About' },
-    { href: '/contact', label: 'Contact' },
+  const serviceLinks = [
+    { href: '/services/website-design', label: 'Website Design' },
+    { href: '/services/ads',            label: 'Meta & Google Ads' },
+    { href: '/services/social-media',   label: 'Social Media' },
+    { href: '/services/seo',            label: 'SEO' },
+    { href: '/services/logo-design',    label: 'Logo & Brand Design' },
   ];
 
   return (
@@ -48,16 +50,31 @@ function Nav() {
           </a>
 
           <ul className="nav-links">
-            {links.map(l => (
-              <li key={l.href}>
-                <a
-                  href={l.href}
-                  className={`nav-link${currentPath === l.href ? ' active' : ''}`}
-                >
-                  {l.label}
-                </a>
-              </li>
-            ))}
+            <li>
+              <a href="/" className={`nav-link${currentPath === '/' ? ' active' : ''}`}>Home</a>
+            </li>
+            <li
+              className="nav-item-services"
+              onMouseEnter={() => setServicesOpen(true)}
+              onMouseLeave={() => setServicesOpen(false)}
+            >
+              <a href="/services" className={`nav-link${currentPath.startsWith('/services') ? ' active' : ''}`}>
+                Services <span className="nav-dropdown-caret">▾</span>
+              </a>
+              {servicesOpen && (
+                <div className="nav-dropdown">
+                  {serviceLinks.map(l => (
+                    <a key={l.href} href={l.href} className="nav-dropdown-link">{l.label}</a>
+                  ))}
+                </div>
+              )}
+            </li>
+            <li>
+              <a href="/about" className={`nav-link${currentPath === '/about' ? ' active' : ''}`}>About</a>
+            </li>
+            <li>
+              <a href="/contact" className={`nav-link${currentPath === '/contact' ? ' active' : ''}`}>Contact</a>
+            </li>
           </ul>
 
           <div className="nav-right">
@@ -75,11 +92,15 @@ function Nav() {
       </nav>
 
       <div className={`nav-mobile${open ? ' open' : ''}`}>
-        {links.map(l => (
-          <a key={l.href} href={l.href} className="nav-mobile-link" onClick={() => setOpen(false)}>
-            {l.label}
-          </a>
-        ))}
+        <a href="/" className="nav-mobile-link" onClick={() => setOpen(false)}>Home</a>
+        <a href="/services" className="nav-mobile-link" onClick={() => setOpen(false)}>Services</a>
+        <div className="nav-mobile-sub">
+          {serviceLinks.map(l => (
+            <a key={l.href} href={l.href} className="nav-mobile-sub-link" onClick={() => setOpen(false)}>{l.label}</a>
+          ))}
+        </div>
+        <a href="/about" className="nav-mobile-link" onClick={() => setOpen(false)}>About</a>
+        <a href="/contact" className="nav-mobile-link" onClick={() => setOpen(false)}>Contact</a>
         <a href="/contact" className="btn btn-primary btn-lg nav-mobile-cta" onClick={() => setOpen(false)}>
           Get a Free Audit
         </a>
@@ -134,11 +155,11 @@ function Footer() {
           <div>
             <div className="footer-col-title">Services</div>
             <ul className="footer-links">
-              <li><a href="/services" className="footer-link">Website Design</a></li>
-              <li><a href="/services" className="footer-link">Meta &amp; Google Ads</a></li>
-              <li><a href="/services" className="footer-link">Social Media</a></li>
-              <li><a href="/services" className="footer-link">SEO</a></li>
-              <li><a href="/services" className="footer-link">Logo Design</a></li>
+              <li><a href="/services/website-design" className="footer-link">Website Design</a></li>
+              <li><a href="/services/ads" className="footer-link">Meta &amp; Google Ads</a></li>
+              <li><a href="/services/social-media" className="footer-link">Social Media</a></li>
+              <li><a href="/services/seo" className="footer-link">SEO</a></li>
+              <li><a href="/services/logo-design" className="footer-link">Logo Design</a></li>
             </ul>
           </div>
 

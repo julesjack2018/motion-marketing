@@ -39,10 +39,10 @@ function Home() {
   ];
 
   const niches = [
-    'Tint & Wrap Shops',
-    'Detail & PPF Shops',
-    'Performance Shops',
-    'Auto Repair',
+    { name: 'Tint & Wrap Shops',  img: 'https://images.unsplash.com/photo-1621963416538-b7f06dfca2f7?auto=format&fit=crop&w=600&q=80' },
+    { name: 'Detail & PPF Shops', img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80' },
+    { name: 'Performance Shops',  img: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80' },
+    { name: 'Auto Repair',        img: 'https://images.unsplash.com/photo-1530046339160-ce3e530bc202?auto=format&fit=crop&w=600&q=80' },
   ];
 
   const reasons = [
@@ -188,10 +188,11 @@ function Home() {
 
           <div className="serve-grid">
             {niches.map((n, i) => (
-              <RevealSection key={n} delay={(i % 4) + 1}>
-                <div className="serve-card">
-                  <span className="serve-card-name">{n}</span>
-                </div>
+              <RevealSection key={n.name} delay={(i % 4) + 1}>
+                <a href="/services" className="serve-card">
+                  <img className="serve-card-img" src={n.img} alt={n.name} />
+                  <span className="serve-card-name">{n.name}</span>
+                </a>
               </RevealSection>
             ))}
           </div>

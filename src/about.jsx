@@ -83,32 +83,36 @@ function About() {
             <div>
               <RevealSection>
                 <p className="about-story-intro">
-                  I learned something frustrating early on: having a great business isn't enough if nobody knows it exists.
+                  We believe great local businesses deserve to be found.
                 </p>
               </RevealSection>
 
               <RevealSection delay={1}>
                 <div className="about-story-body">
                   <p>
-                    Hi, I'm Jules. I poured everything into my own business. The product was
-                    good. The work was real. But people couldn't buy from a business they'd
-                    never found. That frustration became an obsession with learning marketing
-                    the right way.
+                    Not just because it's good for business. Because the alternative is watching
+                    someone who cares less, does less, and delivers less walk away with jobs that
+                    should've been yours. That's genuinely frustrating. And it happens every day
+                    to businesses that are better than their online presence suggests.
                   </p>
                   <p>
-                    Not theory. Real campaigns, real feedback, real lessons. What started with
-                    growing my own brand became a deep focus on understanding why some local
-                    businesses grow while others stay invisible.
+                    That belief is what started Motion Marketing.
                   </p>
                   <p>
-                    Now I use that same process to help local service businesses stop getting
-                    overlooked and start growing consistently. I work directly with every client.
-                    No handoffs. No account managers. Just me, your business, and a real
-                    strategy built around your goals.
+                    Hi, I'm Jules. I built my own business, poured everything into it, and still
+                    couldn't get the momentum to match the effort. Not because the work wasn't
+                    good. Because the right people didn't know it existed. That frustration became
+                    an obsession with figuring out what actually works, not in theory, but through
+                    real campaigns, real feedback, and real results.
                   </p>
                   <p>
-                    If your business deserves more attention than it's getting today, you're
-                    exactly who Motion Marketing was built for.
+                    The way we do it is through websites, ads, social media, SEO, and branding
+                    that's built specifically for your business. No templates. No account managers.
+                    Just a real strategy, built around your goals, worked on directly by me.
+                  </p>
+                  <p>
+                    If your business is better than your online presence suggests, you're exactly
+                    who this was built for.
                   </p>
                 </div>
               </RevealSection>
