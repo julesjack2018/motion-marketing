@@ -6,10 +6,10 @@
   --border:    #222222;
   --border-2:  #333333;
 
-  /* Accent — white only */
-  --accent:      #FFFFFF;
-  --accent-dim:  rgba(255, 255, 255, 0.06);
-  --accent-glow: rgba(255, 255, 255, 0.12);
+  /* Accent — red */
+  --accent:      #E5252A;
+  --accent-dim:  rgba(229, 37, 42, 0.10);
+  --accent-glow: rgba(229, 37, 42, 0.25);
 
   /* Text */
   --text-primary:   #FFFFFF;

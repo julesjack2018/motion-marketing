@@ -84,7 +84,7 @@ function Home() {
 
               <h1 className="hero-headline">
                 Your<br/>
-                Growth<br/>
+                <span className="hero-headline-accent">Growth</span><br/>
                 Is Our<br/>
                 Business.
               </h1>
