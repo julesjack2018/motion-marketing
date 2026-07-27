@@ -39,10 +39,10 @@ function Home() {
   ];
 
   const niches = [
-    { name: 'Tint & Wrap Shops',  img: 'https://images.unsplash.com/photo-1621963416538-b7f06dfca2f7?auto=format&fit=crop&w=600&q=80' },
-    { name: 'Detail & PPF Shops', img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80' },
-    { name: 'Performance Shops',  img: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80' },
-    { name: 'Auto Repair',        img: 'https://images.unsplash.com/photo-1530046339160-ce3e530bc202?auto=format&fit=crop&w=600&q=80' },
+    { name: 'Tint & Wrap Shops',  img: 'https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=80' },
+    { name: 'Detail & PPF Shops', img: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=600&q=80' },
+    { name: 'Performance Shops',  img: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=600&q=80' },
+    { name: 'Auto Repair',        img: 'https://images.unsplash.com/photo-1625047509252-ab38fb5c7343?auto=format&fit=crop&w=600&q=80' },
   ];
 
   const reasons = [
