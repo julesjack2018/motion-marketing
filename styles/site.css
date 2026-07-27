@@ -456,7 +456,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   padding: var(--sp-6);
   position: relative;
   overflow: hidden;
-  transition: border-color 0.2s var(--ease), transform 0.2s var(--ease);
+  transition: border-color 0.3s var(--ease), transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
 }
 .service-card::before {
   content: '';
@@ -465,9 +465,9 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   width: 2px;
   background: var(--accent);
   opacity: 0;
-  transition: opacity 0.2s var(--ease);
+  transition: opacity 0.3s var(--ease);
 }
-.service-card:hover { border-color: var(--border-2); transform: translateY(-3px); }
+.service-card:hover { border-color: rgba(229,37,42,0.4); transform: translateY(-3px); box-shadow: 0 12px 40px rgba(229,37,42,0.18), 0 4px 16px rgba(229,37,42,0.10); }
 .service-card:hover::before { opacity: 1; }
 .service-card-num {
   font-family: var(--font-display);
@@ -539,12 +539,12 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   align-items: center;
   justify-content: center;
   text-align: center;
-  transition: border-color 0.2s, transform 0.2s;
+  transition: border-color 0.3s var(--ease), transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
   position: relative;
   overflow: hidden;
   min-height: 120px;
 }
-.serve-card:hover { border-color: var(--border-2); transform: translateY(-2px); }
+.serve-card:hover { border-color: rgba(229,37,42,0.4); transform: translateY(-2px); box-shadow: 0 10px 36px rgba(229,37,42,0.20), 0 0 0 1px rgba(229,37,42,0.10); }
 .serve-card-img {
   position: absolute;
   inset: 0;
@@ -1318,9 +1318,9 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--r-md);
-  transition: border-color 0.2s var(--ease), transform 0.2s var(--ease);
+  transition: border-color 0.3s var(--ease), transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
 }
-.trust-item:hover { border-color: var(--border-2); transform: translateY(-2px); }
+.trust-item:hover { border-color: rgba(229,37,42,0.4); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(229,37,42,0.16), 0 0 0 1px rgba(229,37,42,0.08); }
 .trust-check {
   font-size: 12px;
   font-weight: 700;
@@ -1547,7 +1547,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   opacity: 0;
   transition: opacity 0.2s;
 }
-.service-landing-card:hover { border-color: var(--border-2); transform: translateY(-2px); }
+.service-landing-card:hover { border-color: rgba(229,37,42,0.4); transform: translateY(-2px); box-shadow: 0 12px 40px rgba(229,37,42,0.18), 0 4px 16px rgba(229,37,42,0.10); }
 .service-landing-card:hover::before { opacity: 1; }
 .service-landing-num {
   font-size: 11px;
