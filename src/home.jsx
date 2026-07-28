@@ -67,22 +67,6 @@ function Home() {
                 <a href="/services" className="btn btn-outline btn-lg">See Services</a>
               </div>
 
-              <div className="hero-divider"></div>
-
-              <div className="hero-stats">
-                <div>
-                  <div className="hero-stat-value">✓</div>
-                  <div className="hero-stat-label">No account managers, ever</div>
-                </div>
-                <div>
-                  <div className="hero-stat-value">✓</div>
-                  <div className="hero-stat-label">Free audit, zero commitment</div>
-                </div>
-                <div>
-                  <div className="hero-stat-value">✓</div>
-                  <div className="hero-stat-label">Strategy before we spend a dollar</div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
