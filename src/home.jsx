@@ -47,11 +47,6 @@ function Home() {
         <div className="container">
           <div className="hero-inner">
             <div>
-              <div className="hero-eyebrow">
-                <div className="hero-eyebrow-dot"></div>
-                <span className="eyebrow">Local Business Marketing · New Jersey</span>
-              </div>
-
               <h1 className="hero-headline">
                 Great Work.<br/>
                 Deserves Great<br/>
