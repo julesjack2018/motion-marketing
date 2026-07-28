@@ -208,25 +208,7 @@ function Footer() {
   );
 }
 
-function Marquee() {
-  const items = ['Website Design', 'Meta & Google Ads', 'Social Media', 'SEO', 'Logo & Brand Design'];
-  const all = [...items, ...items];
-  return (
-    <div className="marquee-strip">
-      <div className="marquee-track">
-        {all.map((item, i) => (
-          <React.Fragment key={i}>
-            <span className="marquee-item">{item}</span>
-            <span className="marquee-sep">✦</span>
-          </React.Fragment>
-        ))}
-      </div>
-    </div>
-  );
-}
-
 window.Nav = Nav;
 window.Footer = Footer;
 window.AccentLine = AccentLine;
 window.AccentHeader = AccentHeader;
-window.Marquee = Marquee;

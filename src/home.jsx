@@ -135,7 +135,7 @@ function Home() {
         </div>
       </section>
 
-      <Marquee />
+      <AccentLine />
 
       {/* ── Services Preview ── */}
       <section className="section services-preview">
@@ -305,12 +305,7 @@ function Home() {
         </div>
       </section>
 
-      {/* ── Statement ── */}
-      <section className="statement-section">
-        <span className="statement-line statement-line-dim">Stop Being</span>
-        <span className="statement-line">The Best Kept</span>
-        <span className="statement-line statement-line-accent">Secret.</span>
-      </section>
+      <AccentLine />
 
       {/* ── Founder Quote ── */}
       <section className="section-sm founder-quote-section">
