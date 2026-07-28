@@ -41,11 +41,12 @@ function Home() {
       <section className="hero">
         <div className="hero-bg">
           <div className="hero-bg-grid"></div>
+          <div className="hero-bg-photo"></div>
           <div className="hero-bg-gradient"></div>
         </div>
         <div className="container">
           <div className="hero-inner">
-            <div className="hero-content">
+            <div>
               <div className="hero-eyebrow">
                 <div className="hero-eyebrow-dot"></div>
                 <span className="eyebrow">Local Business Marketing · New Jersey</span>
@@ -58,10 +59,9 @@ function Home() {
               </h1>
 
               <p className="hero-sub">
-                Marketing shouldn't leave you wondering if it's working. We
-                build websites, ads, and growth systems that bring in more
-                calls, more booked jobs, and more revenue for local service
-                businesses.
+                Your shop does the work. We make sure people find it —
+                websites, ads, social, and SEO built for automotive businesses
+                that are ready to grow.
               </p>
 
               <div className="hero-actions">
@@ -83,20 +83,6 @@ function Home() {
                 <div>
                   <div className="hero-stat-value">✓</div>
                   <div className="hero-stat-label">Strategy before we spend a dollar</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="hero-visual">
-              <div className="hero-visual-card">
-                <div className="hero-visual-label">What We Handle</div>
-                <div className="hero-visual-services">
-                  {['Website Design', 'Meta & Google Ads', 'Social Media', 'SEO', 'Logo Design'].map(s => (
-                    <div key={s} className="hero-visual-service">
-                      <span>{s}</span>
-                      <div className="hero-visual-dot"></div>
-                    </div>
-                  ))}
                 </div>
               </div>
             </div>
