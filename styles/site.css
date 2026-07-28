@@ -495,12 +495,12 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   align-items: center;
   justify-content: center;
   text-align: center;
-  transition: border-color 0.3s var(--ease), transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
+  transition: border-color 0.3s var(--ease), box-shadow 0.3s var(--ease);
   position: relative;
   overflow: hidden;
   min-height: 120px;
 }
-.serve-card:hover { border-color: rgba(229,37,42,0.4); transform: translateY(-2px); box-shadow: 0 10px 36px rgba(229,37,42,0.20), 0 0 0 1px rgba(229,37,42,0.10); }
+.serve-card:hover { border-color: rgba(229,37,42,0.4); box-shadow: 0 10px 36px rgba(229,37,42,0.20), 0 0 0 1px rgba(229,37,42,0.10); }
 .serve-card-img {
   position: absolute;
   inset: 0;
