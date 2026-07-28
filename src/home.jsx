@@ -317,7 +317,7 @@ function Home() {
         <div className="container">
           <RevealSection>
             <blockquote className="founder-quote-block">
-              <p className="founder-quote-text">"Good marketing isn't magic. It's consistency."</p>
+              <p className="founder-quote-text">"The problem was never the work. It was making sure the right people knew it existed."</p>
               <cite className="founder-quote-cite">Jules Battiato, Founder of Motion Marketing LLC</cite>
             </blockquote>
           </RevealSection>
