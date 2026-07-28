@@ -83,10 +83,9 @@ function Home() {
               </div>
 
               <h1 className="hero-headline">
-                Your<br/>
-                <span className="hero-headline-accent">Growth</span><br/>
-                Is Our<br/>
-                Business.
+                Great Work.<br/>
+                Deserves Great<br/>
+                <span className="hero-headline-accent">Visibility.</span>
               </h1>
 
               <p className="hero-sub">
