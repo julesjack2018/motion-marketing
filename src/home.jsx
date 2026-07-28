@@ -59,9 +59,7 @@ function Home() {
               </h1>
 
               <p className="hero-sub">
-                Your shop does the work. We make sure people find it —
-                websites, ads, social, and SEO built for automotive businesses
-                that are ready to grow.
+                You didn't build this shop to be the internet's best-kept secret.
               </p>
 
               <div className="hero-actions">
