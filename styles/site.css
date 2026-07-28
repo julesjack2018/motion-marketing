@@ -320,10 +320,10 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   top: 0;
   width: 62%;
   height: 100%;
-  background-image: url('https://images.unsplash.com/photo-1783740486469-eee891153ff6?auto=format&fit=crop&w=1400&q=80');
+  background-image: url('https://images.unsplash.com/photo-1778274632385-d4bd48a242d6?auto=format&fit=crop&w=1400&q=80');
   background-size: cover;
-  background-position: center left;
-  filter: brightness(0.38) contrast(1.15) saturate(0.7);
+  background-position: center center;
+  filter: brightness(0.55) contrast(1.1) saturate(0.75);
   -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 28%, black 58%);
   mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 28%, black 58%);
 }
