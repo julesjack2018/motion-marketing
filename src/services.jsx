@@ -97,7 +97,6 @@ function Services() {
             {services.map((s, i) => (
               <RevealSection key={s.num} delay={(i % 2) + 1}>
                 <div className="service-landing-card">
-                  <div className="service-landing-num">{s.num}</div>
                   <h2 className="service-landing-title">{s.title}</h2>
                   <p className="service-landing-tagline">{s.tagline}</p>
                   <p className="service-landing-body">{s.body}</p>

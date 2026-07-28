@@ -880,33 +880,27 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .values-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: var(--sp-4);
+  gap: 0;
+  border-top: 1px solid var(--border);
 }
-.value-card {
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: var(--r-md);
-  padding: var(--sp-6);
+.value-editorial {
+  padding: var(--sp-7) var(--sp-6);
+  border-right: 1px solid var(--border);
 }
-.value-card-num {
-  font-size: 11px;
+.value-editorial:last-child { border-right: none; }
+.value-editorial-title {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 2vw, 26px);
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--text-primary);
   margin-bottom: var(--sp-4);
 }
-.value-card-title {
-  font-family: var(--font-display);
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  margin-bottom: var(--sp-3);
-}
-.value-card-body {
-  font-size: 13px;
+.value-editorial-body {
+  font-size: 14px;
   color: var(--text-secondary);
-  line-height: 1.65;
+  line-height: 1.75;
 }
 
 /* ─── How It Works ───────────────────────────────────── */
@@ -1382,33 +1376,17 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   margin-top: var(--sp-7);
   position: relative;
 }
-.process-grid::before {
-  content: '';
-  position: absolute;
-  top: 23px;
-  left: 12%;
-  right: 12%;
-  height: 1px;
-  background: var(--border);
-  z-index: 0;
-}
+.process-grid::before { display: none; }
 .process-step { position: relative; }
-.process-num {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  border: 1px solid var(--border-2);
-  background: var(--surface);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.process-step-num {
   font-family: var(--font-display);
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 700;
-  color: var(--text-primary);
-  margin-bottom: var(--sp-5);
-  position: relative;
-  z-index: 1;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: var(--sp-4);
+  opacity: 0.7;
 }
 .process-title {
   font-family: var(--font-display);

@@ -153,7 +153,6 @@ function Home() {
             {services.map((s, i) => (
               <RevealSection key={s.num} delay={(i % 3) + 1}>
                 <div className="service-card">
-                  <div className="service-card-num">{s.num}</div>
                   <div className="service-card-title">{s.title}</div>
                   <div className="service-card-body">{s.body}</div>
                   <div className="service-card-tags">
@@ -226,7 +225,7 @@ function Home() {
             ].map((s, i) => (
               <RevealSection key={s.num} delay={i + 1}>
                 <div className="process-step">
-                  <div className="process-num">{s.num}</div>
+                  <div className="process-step-num">{s.num}</div>
                   <div className="process-title">{s.title}</div>
                   <div className="process-body">{s.body}</div>
                 </div>

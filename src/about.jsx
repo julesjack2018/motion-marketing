@@ -145,10 +145,9 @@ function About() {
           <div className="values-grid">
             {values.map((v, i) => (
               <RevealSection key={v.num} delay={i + 1}>
-                <div className="value-card">
-                  <div className="value-card-num">{v.num}</div>
-                  <div className="value-card-title">{v.title}</div>
-                  <div className="value-card-body">{v.body}</div>
+                <div className="value-editorial">
+                  <div className="value-editorial-title">{v.title}</div>
+                  <div className="value-editorial-body">{v.body}</div>
                 </div>
               </RevealSection>
             ))}
