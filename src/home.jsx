@@ -72,7 +72,7 @@ function Home() {
               <div className="hero-stats">
                 <div>
                   <div className="hero-stat-value">✓</div>
-                  <div className="hero-stat-label">Work directly with Jules</div>
+                  <div className="hero-stat-label">No account managers, ever</div>
                 </div>
                 <div>
                   <div className="hero-stat-value">✓</div>
